@@ -3,14 +3,10 @@ kind: Route
 metadata:
   annotations:
     openshift.io/host.generated: 'true'
-  creationTimestamp: '2021-05-05T07:55:38Z'
   labels:
     argocd.argoproj.io/instance: guestbook
   name: guestbook-ui
   namespace: argocd
-  resourceVersion: '42112909'
-  selfLink: /apis/route.openshift.io/v1/namespaces/argocd/routes/guestbook-ui
-  uid: 48321237-ad77-11eb-b1f7-fefe3efb5fca
 spec:
   host: guestbook-ui-argocd.apps.ocp.corp.myservices.digital
   to:
@@ -18,12 +14,3 @@ spec:
     name: guestbook-ui
     weight: 100
   wildcardPolicy: None
-status:
-  ingress:
-    - conditions:
-        - lastTransitionTime: '2021-05-05T07:55:38Z'
-          status: 'True'
-          type: Admitted
-      host: guestbook-ui-argocd.apps.ocp.corp.myservices.digital
-      routerName: router
-      wildcardPolicy: None
