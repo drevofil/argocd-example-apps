@@ -1,6 +1,8 @@
 apiVersion: v1
 data:
-  test.test: test2
+  test.test: |
+    test2 test3
+    test4
 kind: ConfigMap
 metadata:
   name: test-cm
