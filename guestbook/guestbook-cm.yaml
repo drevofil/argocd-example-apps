@@ -1,0 +1,8 @@
+apiVersion: v1
+data:
+  test.test: test
+kind: ConfigMap
+metadata:
+  creationTimestamp: "2021-05-05T13:22:28Z"
+  name: test-cm
+  namespace: argocd
