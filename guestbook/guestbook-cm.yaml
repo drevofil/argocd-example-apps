@@ -3,6 +3,7 @@ data:
   test.test: |
     test2 test3
     test4 tesrt5
+    terst6
 kind: ConfigMap
 metadata:
   name: test-cm
