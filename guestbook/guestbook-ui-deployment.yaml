@@ -49,5 +49,5 @@ spec:
           claimName: test-volume
       - configMap:
           defaultMode: 420
-          name: test2-cm
+          name: test-cm
         name: volume-pvb90
